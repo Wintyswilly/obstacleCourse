@@ -308,6 +308,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2dea1438087cf2479524d78de2e5d1b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  xValue: 0.01
+  yValue: 0.01
+  zValue: 0.01
 --- !u!65 &780706077
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -340,7 +343,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 5c858b016b08ffc4a8becce3da389d7f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -378,7 +381,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 780706075}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.27, y: 0.2, z: 1.3}
+  m_LocalPosition: {x: -7.73, y: 0.2, z: 1.3}
   m_LocalScale: {x: 1, y: 0.25, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -480,7 +483,7 @@ GameObject:
   - component: {fileID: 2079026705}
   - component: {fileID: 2079026704}
   m_Layer: 0
-  m_Name: Plane
+  m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -519,7 +522,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8298ffea91c544f4b8f054c343c074f7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
