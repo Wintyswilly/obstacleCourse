@@ -10,13 +10,24 @@ public class Mover : MonoBehaviour
  //   [SerializeField] float zValue = 0.00f;
     void Start()
     {
+        PrintInstructions();
     }
 
     void Update()
     {
-        // TODO: add keyboard controls 
+        MovePlayer();        
+    }
+
+    void PrintInstructions () 
+    {
+        Debug.Log("Welcome to the game!");
+        Debug.Log("Please help ben square head get to the end");
+    }
+
+    void MovePlayer() 
+    {
         float xValue = Input.GetAxis("Horizontal") * moveSpeed * Time.deltaTime;
-        float zValue = Input.GetAxis("Vertical")* moveSpeed * Time.deltaTime;
+        float zValue = Input.GetAxis("Vertical") * moveSpeed * Time.deltaTime;
         transform.Translate(xValue, yValue, zValue);
 
     }
