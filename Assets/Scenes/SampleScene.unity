@@ -135,6 +135,7 @@ GameObject:
   - component: {fileID: 473701878}
   - component: {fileID: 473701877}
   - component: {fileID: 473701876}
+  - component: {fileID: 473701880}
   m_Layer: 0
   m_Name: Xwall (1)
   m_TagString: Untagged
@@ -218,6 +219,18 @@ Transform:
   m_Father: {fileID: 1608576704}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &473701880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473701875}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6806db00be5de4d9c8a0760fdcf565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -808,6 +821,7 @@ GameObject:
   - component: {fileID: 1150472407}
   - component: {fileID: 1150472406}
   - component: {fileID: 1150472405}
+  - component: {fileID: 1150472409}
   m_Layer: 0
   m_Name: Xwall
   m_TagString: Untagged
@@ -891,6 +905,18 @@ Transform:
   m_Father: {fileID: 1608576704}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1150472409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1150472404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6806db00be5de4d9c8a0760fdcf565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1297418063
 GameObject:
   m_ObjectHideFlags: 0
@@ -903,6 +929,7 @@ GameObject:
   - component: {fileID: 1297418066}
   - component: {fileID: 1297418065}
   - component: {fileID: 1297418064}
+  - component: {fileID: 1297418068}
   m_Layer: 0
   m_Name: Ywall (1)
   m_TagString: Untagged
@@ -986,6 +1013,18 @@ Transform:
   m_Father: {fileID: 1608576704}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1297418068
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1297418063}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6806db00be5de4d9c8a0760fdcf565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1608576703
 GameObject:
   m_ObjectHideFlags: 0
@@ -1033,6 +1072,7 @@ GameObject:
   - component: {fileID: 1956826057}
   - component: {fileID: 1956826056}
   - component: {fileID: 1956826055}
+  - component: {fileID: 1956826059}
   m_Layer: 0
   m_Name: Ywall
   m_TagString: Untagged
@@ -1116,6 +1156,18 @@ Transform:
   m_Father: {fileID: 1608576704}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1956826059
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956826054}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be6806db00be5de4d9c8a0760fdcf565, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2079026703
 GameObject:
   m_ObjectHideFlags: 0
