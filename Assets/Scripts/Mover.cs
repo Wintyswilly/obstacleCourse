@@ -6,7 +6,7 @@ public class Mover : MonoBehaviour
 {
  //   [SerializeField] float xValue = 0.00f;
     float yValue = 0.00f;
-    float moveSpeed = 2f;
+    float moveSpeed = 10f;
  //   [SerializeField] float zValue = 0.00f;
     void Start()
     {
